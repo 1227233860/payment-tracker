@@ -1,0 +1,30 @@
+:host {
+    margin: 12px;
+    display: flex;
+}
+
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+
+th {
+    background-color: #c5c5c5;
+    width: 25%;
+    cursor: pointer;
+}
+
+table, tr {
+    border: 1px solid #c5c5c5;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: start;
+}
+
+th:last-child,
+td:last-child {
+    text-align: end;
+}
